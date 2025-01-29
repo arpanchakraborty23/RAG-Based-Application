@@ -2,6 +2,7 @@ import os
 
 from src.logging import logging
 from src.config.config import DataIngestionConfig
+from src.config.artifacts_entity import DataIngestionArtifacts
 from langchain_community.document_loaders import WebBaseLoader
 
 class DataIngestion:
@@ -32,6 +33,8 @@ class DataIngestion:
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(all_text)
             logging.info(f"Data save {filename} successfully.")
+
+            return filename
         except Exception as e:
             raise e
 
@@ -40,11 +43,15 @@ class DataIngestion:
             data_store_path = self.data_ingestion_config.data_ingestion_ingest_data
             url_titles = self.data_ingestion_config.data_ingestion_url_name
 
-            self.fetch_data_from_wikipedia(
+            data=self.fetch_data_from_wikipedia(
                 url=url_titles,
                 filename=data_store_path
             )
+            artifact=DataIngestionArtifacts(data)
+            logging.info(f" data saved at: {artifact}")
             print('Data Ingestion completed')
-            return data_store_path
+
+            return artifact
+
         except Exception as e:
             raise e

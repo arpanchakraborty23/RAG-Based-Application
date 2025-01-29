@@ -9,4 +9,5 @@ tiktoken
 unstructured
 wikipedia
 beautifulsoup4
+langchain_pinecone
 -e .
