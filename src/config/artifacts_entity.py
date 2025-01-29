@@ -7,3 +7,7 @@ class DataIngestionArtifacts:
 @dataclass
 class DataChunkingArtifacts:
     chunking_data_path:str
+
+@dataclass
+class VectorDataBaseArtifacts:
+    vector_database_path:object

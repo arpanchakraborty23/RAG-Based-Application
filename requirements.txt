@@ -10,4 +10,5 @@ unstructured
 wikipedia
 beautifulsoup4
 langchain_pinecone
+faiss-cpu
 -e .

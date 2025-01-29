@@ -15,3 +15,6 @@ DATA_CHUNKING_DIR:str='data_chunking'
 DATA_CHUNKING_FILE:str='chunking.json'
 CHUINK_SIZE= 500
 CHUINK_OVERLAP=50
+
+"""Vectore Store constans"""
+VECTOR_DATABASE_DIR_PATH:str='Vector_db'

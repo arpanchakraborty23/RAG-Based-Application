@@ -1,8 +1,9 @@
 from src.logging import logging
-from src.model.data_ingestion import DataIngestion
-from src.model.chunking import DataChunking
+from src.knowledge_base.data_ingestion import DataIngestion
+from src.knowledge_base.chunking import DataChunking
+from src.knowledge_base.embedding_vector_store import VectorDatabase
 from src.config.config import TraningPiplineConfig,DataIngestionConfig,DataChunkingConfig
-from src.config.artifacts_entity import DataIngestionArtifacts
+from src.config.artifacts_entity import DataIngestionArtifacts,DataChunkingArtifacts
 import os
 
 class TrainPipline:
@@ -29,7 +30,22 @@ class TrainPipline:
                 data_ingestion_artifact=data_ingestion_artifact,
                 chunking_config=data_chuinking_config                        
                 )
-            data_chuinking.initiate_data_chunking()
+            data_chuinking_artifacts=data_chuinking.initiate_data_chunking()
+            logging.info(f'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Data Chunking completed >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+            return data_chuinking_artifacts
+        except Exception as e:
+            print(e)
+    def start_vectordb_data_store(self,data_chunking_artifacts:DataChunkingArtifacts):
+        try:
+            logging.info(f'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Data Vectore completed >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+           
+            data_chunking=VectorDatabase(
+                data_chunking_artifacts=data_chunking_artifacts
+            )
+            data_chunking.initate_vector_store()
+
+            logging.info(f'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Data vectore completed >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
         except Exception as e:
             print(e)
 
@@ -38,6 +54,7 @@ class TrainPipline:
             logging.info('************************************ Traning Pipline Started ************************************')
             data_ingestion_artifacts=self.start_data_ingestion()
             data_chunking_artifacts=self.start_data_chuinking(data_ingestion_artifact=data_ingestion_artifacts)
+            self.start_vectordb_data_store(data_chunking_artifacts=data_chunking_artifacts)
             
 
             logging.info('************************************ Traning Pipline Completed ************************************')

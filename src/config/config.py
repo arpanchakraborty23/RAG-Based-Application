@@ -6,7 +6,8 @@ import os
 class TraningPiplineConfig:
     def __init__(self):
         self.timestamp=datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
-        self.artifacts_path=os.path.join(traning_pipline.ARTIFACTS_PATH,self.timestamp) # Artifacts path
+        self.artifacts_path=os.path.join(traning_pipline.ARTIFACTS_PATH,self.timestamp)# Artifacts path
+        self.vector_database=traning_pipline.VECTOR_DATABASE_DIR_PATH
 
 class DataIngestionConfig:
     def __init__(self,traning_pipline_config:TraningPiplineConfig)->None:
