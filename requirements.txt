@@ -1,0 +1,11 @@
+flask
+werkzeug
+langchain
+langchain-google-genai
+python-dotenv
+boto3
+pypdf
+tiktoken
+unstructured
+wikipedia
+-e .
