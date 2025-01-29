@@ -1,0 +1,1451 @@
+=== https://en.wikipedia.org/wiki/DeepSeek ===
+
+
+
+
+DeepSeek - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+
+
+Main menu
+
+
+
+
+
+Main menu
+move to sidebar
+hide
+
+
+
+		Navigation
+	
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us
+
+
+
+
+
+		Contribute
+	
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appearance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Donate
+
+Create account
+
+Log in
+
+
+
+
+
+
+
+
+Personal tools
+
+
+
+
+
+Donate Create account Log in
+
+
+
+
+
+		Pages for logged out editors learn more
+
+
+
+ContributionsTalk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contents
+move to sidebar
+hide
+
+
+
+
+(Top)
+
+
+
+
+
+1
+Background
+
+
+
+
+
+
+
+
+2
+Release history
+
+
+
+
+Toggle Release history subsection
+
+
+
+
+
+2.1
+DeepSeek LLM
+
+
+
+
+
+
+
+
+2.2
+V2
+
+
+
+
+
+
+
+
+2.3
+V3
+
+
+
+
+
+
+
+
+2.4
+R1
+
+
+
+
+
+
+
+
+
+
+3
+Assessment and reactions
+
+
+
+
+
+
+
+
+4
+Concerns
+
+
+
+
+Toggle Concerns subsection
+
+
+
+
+
+4.1
+Censorship
+
+
+
+
+
+
+
+
+4.2
+Security and privacy
+
+
+
+
+
+
+
+
+
+
+5
+See also
+
+
+
+
+
+
+
+
+6
+Notes
+
+
+
+
+
+
+
+
+7
+References
+
+
+
+
+
+
+
+
+8
+External links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle the table of contents
+
+
+
+
+
+
+
+DeepSeek
+
+
+
+46 languages
+
+
+
+
+AfrikaansÿßŸÑÿπÿ±ÿ®Ÿäÿ©Aragon√©s‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æCatal√†ƒåe≈°tinaDanskDeutschŒïŒªŒªŒ∑ŒΩŒπŒ∫Œ¨Espa√±olEsperantoŸÅÿßÿ±ÿ≥€åFran√ßaisFulfuldeGaeilgeÌïúÍµ≠Ïñ¥Bahasa IndonesiaItaliano◊¢◊ë◊®◊ô◊™KiswahiliMagyar–ú–∞–∫–µ–¥–æ–Ω—Å–∫–∏‡¥Æ‡¥≤‡¥Ø‡¥æ‡¥≥‡¥ÇNederlands‡§®‡•á‡§™‡§æ‡§≤‡•ÄÊó•Êú¨Ë™ûO ªzbekcha / —û–∑–±–µ–∫—á–∞PolskiPortugu√™sQaraqalpaqshaRom√¢nƒÉ–†—É—Å—Å–∫–∏–π–°—Ä–ø—Å–∫–∏ / srpskiSuomiTagalog‡Æ§‡ÆÆ‡Æø‡Æ¥‡Øç·ÅΩ·ÇÉ·Çá·Äû·ÇÉ·Çá·Äê·ÇÜ·Ä∏ ‡πÑ‡∏ó‡∏¢T√ºrk√ße–£–∫—Ä–∞—ó–Ω—Å—å–∫–∞ÿßÿ±ÿØŸàÿ¶€áŸäÿ∫€áÿ±⁄Ü€ï / UyghurcheTi·∫øng Vi·ªátÂê¥ËØ≠Á≤µË™û‰∏≠Êñá
+
+Edit links
+
+
+
+
+
+
+
+
+
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+Tools
+
+
+
+
+
+Tools
+move to sidebar
+hide
+
+
+
+		Actions
+	
+
+
+ReadView sourceView history
+
+
+
+
+
+		General
+	
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageGet shortened URLDownload QR code
+
+
+
+
+
+		Print/export
+	
+
+
+Download as PDFPrintable version
+
+
+
+
+
+		In other projects
+	
+
+
+Wikimedia CommonsWikidata item
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appearance
+move to sidebar
+hide
+
+
+
+
+
+
+
+
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+Chinese artificial intelligence company
+
+
+Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd.Native nameÊù≠Â∑ûÊ∑±Â∫¶Ê±ÇÁ¥¢‰∫∫Â∑•Êô∫ËÉΩÂü∫Á°ÄÊäÄÊúØÁ†îÁ©∂ÊúâÈôêÂÖ¨Âè∏Company typePrivateIndustryInformation technologyArtificial intelligenceFoundedMay 2023; 1 year ago (2023-05)FounderLiang WenfengHeadquartersHangzhou, Zhejiang, ChinaKey peopleLiang Wenfeng (CEO)OwnerHigh-FlyerWebsitedeepseek.com
+DeepSeek (Chinese: Ê∑±Â∫¶Ê±ÇÁ¥¢; pinyin: Shƒìnd√π Qi√∫su«í) is a Chinese artificial intelligence company that develops open-source large language models (LLM). Based in Hangzhou, Zhejiang, it is owned and solely funded by Chinese hedge fund High-Flyer, whose co-founder, Liang Wenfeng, established the company in 2023 and serves as its CEO.
+The DeepSeek-R1 model provides responses comparable to other contemporary LLMs, such OpenAI's GPT-4o and o1,[1] despite being trained at a significantly lower cost‚Äîstated at US$6 million compared to $100 million for OpenAI's GPT-4 in 2023[2]‚Äîand requiring a tenth of the computing power of a comparable LLM.[2][3][4][5] DeepSeek's A.I. models were developed amid United States sanctions on China for Nvidia chips, which were intended to restrict the country's ability to develop advanced A.I. systems.[6][7]
+On 10 January 2025, DeepSeek released its first free chatbot app, based on the DeepSeek-R1 model, for Apple IOS and Android; by 27 January, DeepSeek-R1 had surpassed ChatGPT as the most-downloaded free app on the iOS App Store in the United States,[8] causing Nvidia's share price to drop by 18%.[9][10] DeepSeek's success against larger and more established rivals has been described as "upending AI",[8] constituting "the first shot at what is emerging as a global AI space race",[11] and ushering in "a new era of A.I. brinkmanship".[12]
+DeepSeek makes its generative artificial intelligence algorithms, models, and training details open-source, allowing its code to be freely available for use, modification, viewing, and designing documents for building purposes.[13] The company reportedly vigorously recruits young A.I. researchers from top Chinese universities,[8] and hires from outside the computer science field to diversify its models' knowledge and abilities.[4]
+DeepSeek AI chatbot is developed entirely by Chinese software engineers, whereas AI models established in Silicon Valley are created by people of various nationalities, including H-1B visa holders from different countries working in the US. DeepSeek AI models can be seen as a significant step toward developing indigenous high-end technologies by Asian countries, helping to retain talent and reduce brain drain from nations like India and China.[14]
+
+
+Background
+In February 2016, High-Flyer was co-founded by AI enthusiast Liang Wenfeng, who had been trading since the 2007‚Äì2008 financial crisis while attending Zhejiang University.[15] By 2019, he established High-Flyer as a hedge fund focused on developing and using AI trading algorithms. By 2021, High-Flyer exclusively used AI in trading.[16] DeepSeek has made its generative artificial intelligence chatbot open source, meaning its code is freely available for use, modification, and viewing. This includes permission to access and utilize the source code, as well as design documents, for building purposes.[13]
+Per 36Kr, Liang had built up a store of 10,000 Nvidia A100 GPUs before the United States federal government imposed AI chip restrictions on China.[16] Some estimates put the number as high as 50,000.[15]
+In April 2023, High-Flyer started an artificial general intelligence lab dedicated to research developing AI tools separate from High-Flyer's financial business.[17][18] In May 2023, with High-Flyer as one of the investors, the lab became its own company, DeepSeek.[16][19][18] Venture capital firms were reluctant in providing funding as it was unlikely that it would be able to generate an exit in a short period of time.[16]
+After releasing DeepSeek-V2 in May 2024, which offered strong performance for a low price, DeepSeek became known as the catalyst for China's AI model price war. It was quickly dubbed the "Pinduoduo of AI", and other major tech giants such as ByteDance, Tencent, Baidu, and Alibaba began to cut the price of their AI models to compete with the company. Despite the low price charged by DeepSeek, it was profitable compared to its rivals that were losing money.[20]
+DeepSeek is focused solely on research and has no detailed plans for commercialization;[20] this also allows its technology to avoid the most stringent provisions of China's A.I. regulations, such as requiring consumer-facing technology to comply with the government‚Äôs controls on information.[4]
+DeepSeek's hiring preferences target technical abilities rather than work experience, resulting in most new hires being either recent university graduates or developers whose AI careers are less established.[18][4] Likewise, the company recruits individuals without any computer science background to help its technology understand other topics and knowledge areas, including being able to generate poetry and perform well on the notoriously difficult Chinese college admissions exams (Gaokao).[4]
+
+Release history
+DeepSeek LLM
+On 2 November 2023, DeepSeek released its first series of model, DeepSeek-Coder, which is available for free to both researchers and commercial users. The code for the model was made open-source under the MIT license, with an additional license agreement ("DeepSeek license") regarding "open and responsible downstream usage" for the model itself.[21]
+They are of the same architecture as DeepSeek LLM detailed below. The series includes 8 models, 4 pretrained (Base) and 4 instruction-finetuned (Instruct). They all have 16K context lengths. The training was as follows:[22][23][24]
+
+Pretraining: 1.8T tokens (87% source code, 10% code-related English (GitHub markdown and Stack Exchange), and 3% code-unrelated Chinese).
+Long-context pretraining: 200B tokens. This extends the context length from 4K to 16K. This produced the Base models.
+Supervised finetuning (SFT): 2B tokens of instruction data. This produced the Instruct models.
+They were trained on clusters of A100 and H800 Nvidia GPUs, connected by InfiniBand, NVLink, NVSwitch.[22]
+
+
+DeepSeek Coder properties[22]: Table 2 [25]
+
+
+Params.
+
+
+
+
+
+n
+
+layers
+
+
+
+
+{\displaystyle n_{\text{layers}}}
+
+
+
+
+
+
+
+d
+
+model
+
+
+
+
+{\displaystyle d_{\text{model}}}
+
+
+
+
+
+
+
+
+d
+
+intermediate
+
+
+
+
+{\displaystyle d_{\text{intermediate}}}
+
+
+
+
+
+
+
+n
+
+heads
+
+
+
+
+{\displaystyle n_{\text{heads}}}
+
+
+
+
+
+
+
+n
+
+kv-heads
+
+
+
+
+{\displaystyle n_{\text{kv-heads}}}
+
+
+
+
+1.3B
+24
+2048
+
+5504
+16
+16
+
+
+5.7B
+
+32
+
+4096
+
+11008
+
+32
+
+1[note 1]
+
+
+6.7B
+32
+4096
+
+11008
+32
+32
+
+
+33B
+62
+7168
+
+19200
+56
+7[note 2]
+
+On 29 November 2023, DeepSeek released the DeepSeek-LLM series of models, with 7B and 67B parameters in both Base and Chat forms (no Instruct was released). It was developed to compete with other LLMs available at the time. The paper claimed benchmark results higher than most open source LLMs at the time, especially Llama 2.[26]: section 5  Like DeepSeek Coder, the code for the model was under MIT license, with DeepSeek license for the model itself.[27]
+The architecture was essentially the same as those of the Llama series. They used the pre-norm decoder-only Transformer with RMSNorm as the normalization, SwiGLU in the feedforward layers, rotary positional embedding (RoPE), and grouped-query attention (GQA). Both had vocabulary size 102400 (byte-level BPE) and context length of 4096. They trained on 2 trillion tokens of English and Chinese text obtained by deduplicating the Common Crawl.[26]
+
+
+DeepSeek LLM properties[26]: Table 2 
+
+
+Params.
+
+
+
+
+
+n
+
+layers
+
+
+
+
+{\displaystyle n_{\text{layers}}}
+
+
+
+
+
+
+
+d
+
+model
+
+
+
+
+{\displaystyle d_{\text{model}}}
+
+
+
+
+
+
+
+
+d
+
+intermediate
+
+
+
+
+{\displaystyle d_{\text{intermediate}}}
+
+
+
+
+
+
+
+n
+
+heads
+
+
+
+
+{\displaystyle n_{\text{heads}}}
+
+
+
+
+
+
+
+n
+
+kv-heads
+
+
+
+
+{\displaystyle n_{\text{kv-heads}}}
+
+
+
+
+7B
+30
+4096
+
+11008
+32
+32
+
+
+67B
+95
+8192
+
+22016
+64
+8[note 3]
+
+The Chat versions of the two Base models was also released concurrently, obtained by training Base by supervised finetuning (SFT) followed by direct policy optimization (DPO).[26]
+In April 2024, they released 3 DeepSeek-Math models specialized for doing math: Base, Instruct, RL. It was trained as follows:[28]
+
+Initialize with a previously pretrained DeepSeek-Coder-Base-v1.5 7B.
+Further pretrain with 500B tokens (6% DeepSeekMath Corpus, 4% AlgebraicStack, 10% arXiv, 20% GitHub code, 10% Common Crawl). This produced the Base model.
+Train an instruction-following model by SFT  Base with 776K math problems and their tool-use-integrated step-by-step solutions. This produced the Instruct model.
+Reinforcement learning (RL): The reward model was a process reward model (PRM) trained from  Base according to the Math-Shepherd method.[29] This reward model was then used to train Instruct using group relative policy optimization (GRPO) on a dataset of 144K math questions "related to GSM8K and MATH". The reward model was continuously updated during training to avoid reward hacking. This resulted in the RL model.
+V2
+In May 2024, they released the DeepSeek-V2 series.
+The series includes 4 models, 2 base models (DeepSeek-V2, DeepSeek-V2-Lite) and 2 chatbots (-Chat).
+The two larger models were trained as follows:[30]
+
+Pretrain on a dataset of 8.1T tokens, where Chinese tokens are 12% more than English ones.
+Extend context length from 4K to 128K using YaRN.[31] This resulted in DeepSeek-V2.
+SFT with 1.2M instances for helpfulness and 0.3M for safety. This resulted in DeepSeek-V2-Chat (SFT) which was not released.
+RL using GRPO in two stages. The first stage was trained to solve math and coding problems. This stage used 1 reward model, trained on compiler feedback (for coding) and ground-truth labels (for math). The second stage was trained to be helpful, safe, and follow rules. This stage used 3 reward models. The helpfulness and safety reward models were trained on human preference data. The rule-based reward model was manually programmed. All trained reward models were initialized from DeepSeek-V2-Chat (SFT). This resulted in the released version of DeepSeek-V2-Chat.
+They opted for 2-staged RL, because they found that RL on reasoning data had "unique characteristics" different from RL on general data. For example, RL on reasoning could improve over more training steps.[30]
+The two V2-Lite models were smaller, and trained similarly, though DeepSeek-V2-Lite-Chat only underwent SFT, not RL. They trained the Lite version to help "further research and development on MLA and DeepSeekMoE".[30]
+Architecturally, the V2 models were significantly modified from the DeepSeek LLM series. They changed the standard attention mechanism by a low-rank approximation called multi-head latent attention (MLA), and used the mixture of experts (MoE) variant previously published in January. Compared to the standard sparsely-gated MoE, their variant had "shared experts" that are always queried, and "routed experts" that might not be.[32]
+
+
+DeepSeek V2 properties[30]: Section 3.1.2, Appendix B [33][34]
+
+
+Name
+
+Params.
+
+Active params
+
+
+
+
+
+n
+
+layers
+
+
+
+
+{\displaystyle n_{\text{layers}}}
+
+
+Context length
+
+
+
+
+
+
+n
+
+shared experts
+
+
+
+
+{\displaystyle n_{\text{shared experts}}}
+
+
+
+
+
+
+
+n
+
+routed experts
+
+
+
+
+{\displaystyle n_{\text{routed experts}}}
+
+
+
+
+V2-Lite
+
+15.7B
+
+2.4B
+27
+32K
+
+2
+64
+
+
+V2
+
+236B
+
+21B
+60
+128K
+
+2
+160
+
+The Financial Times reported that it was cheaper than its peers with a price of 2 RMB for every million output tokens. The University of Waterloo Tiger Lab's leaderboard ranked DeepSeek-V2 seventh on its LLM ranking.[19]
+In June, they released 4 models in the DeepSeek-Coder-V2 series: V2-Base, V2-Lite-Base, V2-Instruct, V2-Lite-Instruct. They were trained as follows:[35][note 4]
+
+The Base models were initialized from corresponding intermediate checkpoints after pretraining on 4.2T tokens (not the version at the end of pretraining), then pretrained further for 6T tokens, then context-extended to 128K context length. This produced the Base models.
+DeepSeek-Coder and DeepSeek-Math were used to generate 20K code-related and 30K math-related instruction data, then combined with an instruction dataset of 300M tokens. This was used for SFT.
+RL with GRPO. The reward for math problems was computed by comparing with the ground-truth label. The reward for code problems was generated by a reward model trained to predict whether a program would pass the unit tests.
+DeepSeek-V2.5 was released in September and updated in December. It was made by combining DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.[36]
+
+V3
+In December 2024, they released a base model DeepSeek-V3-Base and a chat model DeepSeek-V3. The model architecture is essentially the same as V2. They were trained as follows:[37]
+
+Pretraining on 14.8T tokens of a multilingual corpus, mostly English and Chinese. It contained a higher ratio of math and programming than the pretraining dataset of V2.
+Extend context length twice, from 4K to 32K and then to 128K, using YaRN.[31] This produced DeepSeek-V3-Base.
+SFT for 2 epochs on 1.5M samples of reasoning (math, programming, logic) and non-reasoning (creative writing, roleplay, simple question answering) data. Reasoning data was generated by "expert models". Non-reasoning data was generated by DeepSeek-V2.5 and checked by humans.
+The "expert models" were trained by starting with an unspecified base model, then SFT on both <problem, original response> data, and synthetic <system prompt, problem, R1 response> data generated by an internal DeepSeek-R1 model. The system prompt asked the R1 to reflect and verify during thinking. Then the expert models were RL using an unspecified reward function.
+Each expert model was trained to generate just synthetic reasoning data in one specific domain (math, programming, logic).
+Expert models were used, instead of R1 itself, since the output from R1 itself suffered "overthinking, poor formatting, and excessive length".
+Model-based reward models were made by starting with a SFT checkpoint of V3, then finetuning on human preference data containing both final reward and chain-of-thought leading to the final reward. The reward model produced reward signals for both questions with objective but free-form answers, and questions without objective answers (such as creative writing).
+A SFT checkpoint of V3 was trained by GRPO using both reward models and rule-based reward. The rule-based reward was computed for math problems with a final answer (put in a box), and for programming problems by unit tests. This produced DeepSeek-V3.
+
+DeepSeek V3 properties[37]: Section 4.2 [38]
+
+
+Name
+
+Params.
+
+Active params
+
+
+
+
+
+n
+
+layers
+
+
+
+
+{\displaystyle n_{\text{layers}}}
+
+
+Context length
+
+
+
+
+
+
+n
+
+shared experts
+
+
+
+
+{\displaystyle n_{\text{shared experts}}}
+
+
+
+
+
+
+
+n
+
+routed experts
+
+
+
+
+{\displaystyle n_{\text{routed experts}}}
+
+
+
+
+V3
+
+671B
+
+37B
+61
+128K
+
+1
+256
+
+They performed extensive low-level engineering to achieve efficiency. They used mixed-precision arithmetic. Much of the forward pass was performed in 8-bit floating point numbers (5E2M: 5-bit exponent and 2-bit mantissa) rather than the standard 32-bit, requiring special GEMM routines to accumulate accurately. They used a custom 12-bit float (E5M6) for only the inputs to the linear layers after the attention modules. Optimizer states were in 16-bit (BF16). They minimized the communication latency by overlapping extensively computation and communication, such as dedicating 20 streaming multiprocessors out of 132 per H800 for just inter-GPU communication. They lowered communication by rearranging (every 10 minutes) the exact machine each expert was on in order to avoid certain machines being queried more often than the others, adding auxiliary load-balancing losses to the training loss function, and other load-balancing techniques.[37]
+After training, it was deployed on H800 clusters. The H800 within a cluster are connected by NVLink. The clusters are connected by InfiniBand.[37]
+
+
+Total cost of training the DeepSeek-V3 model[37]: Table 1 
+
+
+Stage
+
+Cost (in one thousand GPU hours)
+
+Cost (in one million USD$)
+
+
+Pre-training
+
+2,664
+
+5.328
+
+
+Context extension
+
+119
+
+0.24
+
+
+Fine-tuning
+
+5
+
+0.01
+
+
+Total
+
+2,788
+
+5.576
+
+Benchmark tests show that DeepSeek-V3 outperformed Llama 3.1 and Qwen 2.5 whilst matching GPT-4o and Claude 3.5 Sonnet.[18][39][40][41]
+
+R1
+On 20 November 2024, DeepSeek-R1-Lite-Preview became accessible via DeepSeek's API and chat.deepseek.com.[42] It was trained for logical inference, mathematical reasoning, and real-time problem-solving. DeepSeek claimed that it exceeded performance of OpenAI o1 on benchmarks such as American Invitational Mathematics Examination (AIME) and MATH.[43] However, The Wall Street Journal stated when it used 15 problems from the 2024 edition of AIME, the o1 model reached a solution faster than DeepSeek-R1-Lite-Preview.[44]
+On 20 January 2025, DeepSeek-R1 and DeepSeek-R1-Zero were released.[45] Both were initialized from DeepSeek-V3-Base, and have the same architecture as that. The company also released some "DeepSeek-R1-Distill" models, which are not initialized on V3-Base, but instead are initialized from other pretrained open-weight models, including LLaMA and Qwen, then fine-tuned on synthetic data generated by R1.[46]
+
+
+Template for DeepSeek-R1-Zero
+
+A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think> <answer> answer here </answer>. User: <prompt>. Assistant:
+
+
+‚Äì <prompt> is replaced with the specific reasoning question during training.
+
+DeepSeek-R1-Zero was trained exclusively using GRPO RL without SFT. Unlike previous versions, they used no model-based reward. All reward functions were rule-based, "mainly" of two types (other types were not specified): accuracy rewards and format rewards. Accuracy reward was checking whether a boxed answer is correct (for math) or whether a code passes tests (for programming). Format reward was checking whether the model puts thinking trace within <think>...</think>.[46]
+As R1-Zero has issues with readability and mixing languages, R1 was trained to address these issues and further improve reasoning:[46]
+
+SFT DeepSeek-V3-Base on "thousands" of "cold-start" data all with the standard format of |special_token|<reasoning_process>|special_token|summary>.
+Apply the same RL process as R1-Zero, but also with a "language consistency reward" to encourage it to respond monolingually. This produced an internal model not released.
+Synthesize 600K reasoning data from the internal model, with rejection sampling (i.e. if the generated reasoning had a wrong final answer, then it is removed). Synthesize 200K non-reasoning data (writing, factual QA, self-cognition, translation) using DeepSeek-V3.
+SFT DeepSeek-V3-Base on the 800K synthetic data for 2 epochs.
+GRPO RL with both rule-based reward (for reasoning tasks) and model-based reward (for non-reasoning tasks, helpfulness, and harmlessness). This produced DeepSeek-R1.
+Distilled models were trained by SFT on 800K data synthesized from DeepSeek-R1, in a similar way as step 3 above. They were not trained with RL.[46]
+
+Assessment and reactions
+DeepSeek released its A.I. Assistant, which utilizes the V3 model as a chatbot app for Apple IOS and Android. By 27 January 2025 the app had surpassed ChatGPT as the highest-rated free app on the iOS App Store in the United States; its chatbot reportedly answers questions, solves logic problems and writes computer programs on par with other chatbots on the market, according to benchmark tests used by American A.I. companies.[4]
+DeepSeek-V3 uses significantly fewer resources compared to its peers; for example, whereas the world's leading A.I. companies train their chatbots with supercomputers using as many as 16,000 graphics processing units (GPUs), if not more, DeepSeek claims to have needed only about 2,000 GPUs, namely the H800 series chip from Nvidia. It was trained in around 55 days at a cost of US$5.58 million,[37] which is roughly 10 times less than what U.S. tech giant Meta spent building its latest A.I. technology.[4]
+DeepSeek's competitive performance at relatively minimal cost has been recognized as potentially challenging the global dominance of American A.I. models.[47] Various publications and news media, such as The Hill and The Guardian, described the release of its chatbot as a "Sputnik moment" for American A.I.[48][49] The performance of its R1 model was reportedly "on par with" one of OpenAI's latest models when used for tasks such as mathematics, coding, and natural language reasoning;[50] echoing other commentators, American Silicon Valley venture capitalist Marc Andreessen likewise described R1 as "AI's Sputnik moment".[50]
+
+Deepseek's founder, Liang Wenfeng has been compared to Open AI CEO Sam Altman. With CNN calling him the Sam Altman of China and an evangelist for AI.[51]The login error DeepSeek gave on 28 Jan 2025 following a cyberattackDeepSeek's optimization of limited resources has highlighted potential limits of U.S. sanctions on China's A.I. development, which include export restrictions on advanced A.I. chips to China.[18][52] The success of the company's A.I. models consequently "sparked market turmoil" [53] and caused shares in major global technology companies to plunge on 27 January: Nvidia's stock fell by as much as 17‚Äì18%,[54] as did the stock of rival Broadcom. Other tech firms also sank, including Microsoft (down 2.5%), Google's owner Alphabet (down over 4%), and Dutch chip equipment maker ASML (down over 7%).[50] A global selloff of technology stocks on Nasdaq, prompted by the release of the R1 model, had led to record losses of about $593 billion in the market capitalizations of AI and computer hardware companies;[55] by 28 January, a total of $1 trillion of value was wiped off American stocks.[49]
+Leading figures in the American A.I. sector had mixed reactions to DeepSeek's success and performance.[56] Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman‚Äîwhose companies are involved in the U.S. government-backed "Stargate Project" to develop American A.I. infrastructure‚Äîboth called DeepSeek "super impressive".[57][58] American President Donald Trump, who announced The Stargate Project, called DeepSeek a wake-up call[59] and a positive development.[60][49][61][62] Other leaders in the field, including Scale AI CEO Alexandr Wang, Anthropic cofounder and CEO Dario Amodei, and Elon Musk expressed skepticism of the app's performance or of the sustainability of its success.[56][63][64] Various companies, including Amazon Web Services, Toyota and Stripe, are seeking to use the model in their program.[65]
+On 27 January, DeepSeek limited its new user registration to Chinese mainland phone numbers, email, and Google login after a reported cyberattack that caused a slowdown to its servers and services.[66][67][68]
+
+Concerns
+Censorship
+See also: Chinese censorship abroad and Censorship in China
+DeepSeek responses when asked about Xi Jinping and Narendra Modi
+Some sources have observed that the official API version of R1 uses censorship mechanisms for topics that are considered politically sensitive for the government of the People's Republic of China. For example, the model refuses to answer questions about the 1989 Tiananmen Square protests and massacre, persecution of Uyghurs, or human rights in China.[69][70] The AI may initially generate an answer, but then deletes it shortly afterwards and replaces it with a message such as: "Sorry, that's beyond my current scope. Let's talk about something else."[70] The integrated censorship mechanisms and restrictions can only be removed to a limited extent in the open-source version of the R1 model. If the "core socialist values" defined by the Chinese Internet regulatory authorities are touched upon or the political status of Taiwan is raised, discussions are terminated.[71] When tested by NBC News, DeepSeek's R1 described Taiwan as "an inalienable part of China's territory," and stated: "We firmly oppose any form of 'Taiwan independence' separatist activities and are committed to achieving the complete reunification of the motherland through peaceful means."[72] Western researchers were  able in January 2025 to trick DeepSeek into giving accurate answers to some of these topics by tailoring the question asked.[73]
+
+Security and privacy
+See also: Chinese information operations and information warfare
+There are also fears that the AI system could be used for foreign influence operations, spreading disinformation, surveillance and the development of cyberweapons for the government of the People's Republic of China.[74][75][76] DeepSeek's privacy terms and conditions say "We store the information we collect in secure servers located in the People's Republic of China... We may collect your text or audio input, prompt, uploaded files, feedback, chat history, or other content that you provide to our model and Services". Although the data storage and collection policy is consistent with ChatGPT's privacy policy,[77] a media article reports this as security concerns.[78] In response, the Italian data protection authority is seeking additional information on DeepSeek's collection and use of personal data and the United States National Security Council announced that it had started a national security review.[79][80]
+
+See also
+Artificial intelligence industry in China
+Notes
+
+
+^ The number of heads does not equal the number of KV heads, due to GQA.
+
+^ The number of heads does not equal the number of KV heads, due to GQA.
+
+^ The number of heads does not equal the number of KV heads, due to GQA.
+
+^ Inexplicably, the model named DeepSeek-Coder-V2 Chat in the paper, was released as DeepSeek-Coder-V2-Instruct in HuggingFace.
+
+
+References
+
+
+^ Gibney, Elizabeth (23 January 2025). "China's cheap, open AI model DeepSeek thrills scientists". Nature. doi:10.1038/d41586-025-00229-6. ISSN 1476-4687. PMID 39849139.
+
+^ a b Vincent, James (28 January 2025). "The DeepSeek panic reveals an AI world ready to blow". The Guardian.
+
+^ Hoskins, Peter; Rahman-Jones, Imran (27 January 2025). "Nvidia shares sink as Chinese AI app spooks markets". BBC. Retrieved 28 January 2025.
+
+^ a b c d e f g Metz, Cade; Tobin, Meaghan (23 January 2025). "How Chinese A.I. Start-Up DeepSeek Is Competing With Silicon Valley Giants". The New York Times. ISSN 0362-4331. Retrieved 27 January 2025.
+
+^ Cosgrove, Emma (27 January 2025). "DeepSeek's cheaper models and weaker chips call into question trillions in AI infrastructure spending". Business Insider.
+
+^ Saran, Cliff (10 December 2024). "Nvidia investigation signals widening of US and China chip war | Computer Weekly". Computer Weekly. Retrieved 27 January 2025.
+
+^ Sherman, Natalie (9 December 2024). "Nvidia targeted by China in new chip war probe". BBC. Retrieved 27 January 2025.
+
+^ a b c Metz, Cade (27 January 2025). "What is DeepSeek? And How Is It Upending A.I.?". The New York Times. ISSN 0362-4331. Retrieved 27 January 2025.
+
+^ Field, Hayden (27 January 2025). "China's DeepSeek AI dethrones ChatGPT on App Store: Here's what you should know". CNBC.
+
+^ "What is DeepSeek, and why is it causing Nvidia and other stocks to slump?". www.cbsnews.com. 27 January 2025.
+
+^ Zahn, Max. "Nvidia, Microsoft shares tumble as China-based AI app DeepSeek hammers tech giants". ABC News. Retrieved 27 January 2025.
+
+^ Roose, Kevin (28 January 2025). "Why DeepSeek Could Change What Silicon Valley Believe About A.I." The New York Times. ISSN 0362-4331. Retrieved 28 January 2025.
+
+^ a b Romero, Luis E. "ChatGPT, DeepSeek, Or Llama? Meta's LeCun Says Open-Source Is The Key". Forbes.
+
+^ Panda, Aishwarya (28 January 2025). "Deepseek Wounds Redirected to Low-Cost H1-Bs". M9 news. Retrieved 28 January 2025.
+
+^ a b Chen, Caiwei (24 January 2025). "How a top Chinese AI model overcame US sanctions". MIT Technology Review. Archived from the original on 25 January 2025.
+
+^ a b c d Ottinger, Lily (9 December 2024). "Deepseek: From Hedge Fund to Frontier Model Maker". ChinaTalk. Archived from the original on 28 December 2024. Retrieved 28 December 2024.
+
+^ Yu, Xu (17 April 2023). "[Exclusive] Chinese Quant Hedge Fund High-Flyer Won't Use AGI to Trade Stocks, MD Says". Yicai Global. Archived from the original on 31 December 2023. Retrieved 28 December 2024.
+
+^ a b c d e Jiang, Ben; Perezi, Bien (1 January 2025). "Meet DeepSeek: the Chinese start-up that is changing how AI models are trained". South China Morning Post. Archived from the original on 22 January 2025. Retrieved 1 January 2025.
+
+^ a b McMorrow, Ryan; Olcott, Eleanor (9 June 2024). "The Chinese quant fund-turned-AI pioneer". Financial Times. Archived from the original on 17 July 2024. Retrieved 28 December 2024.
+
+^ a b Schneider, Jordan (27 November 2024). "Deepseek: The Quiet Giant Leading China's AI Race". ChinaTalk. Retrieved 28 December 2024.
+
+^ "DeepSeek-Coder/LICENSE-MODEL at main ¬∑ deepseek-ai/DeepSeek-Coder". GitHub. Archived from the original on 22 January 2025. Retrieved 24 January 2025.
+
+^ a b c Guo, Daya; Zhu, Qihao; Yang, Dejian; Xie, Zhenda; Dong, Kai; Zhang, Wentao; Chen, Guanting; Bi, Xiao; Wu, Y. (26 January 2024), DeepSeek-Coder: When the Large Language Model Meets Programming ‚Äì The Rise of Code Intelligence, arXiv:2401.14196
+
+^ "DeepSeek Coder". deepseekcoder.github.io. Retrieved 27 January 2025.
+
+^ deepseek-ai/DeepSeek-Coder, DeepSeek, 27 January 2025, retrieved 27 January 2025
+
+^ "deepseek-ai/deepseek-coder-5.7bmqa-base ¬∑ Hugging Face". huggingface.co. Retrieved 27 January 2025.
+
+^ a b c d DeepSeek-AI; Bi, Xiao; Chen, Deli; Chen, Guanting; Chen, Shanhuang; Dai, Damai; Deng, Chengqi; Ding, Honghui; Dong, Kai (5 January 2024), DeepSeek LLM: Scaling Open-Source Language Models with Longtermism, arXiv:2401.02954
+
+^ deepseek-ai/DeepSeek-LLM, DeepSeek, 27 January 2025, retrieved 27 January 2025
+
+^ Shao, Zhihong; Wang, Peiyi; Zhu, Qihao; Xu, Runxin; Song, Junxiao; Bi, Xiao; Zhang, Haowei; Zhang, Mingchuan; Li, Y. K. (27 April 2024), DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models, arXiv:2402.03300
+
+^ Wang, Peiyi; Li, Lei; Shao, Zhihong; Xu, R. X.; Dai, Damai; Li, Yifei; Chen, Deli; Wu, Y.; Sui, Zhifang (19 February 2024), Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations, arXiv:2312.08935
+
+^ a b c d DeepSeek-AI; Liu, Aixin; Feng, Bei; Wang, Bin; Wang, Bingxuan; Liu, Bo; Zhao, Chenggang; Dengr, Chengqi; Ruan, Chong (19 June 2024), DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model, arXiv:2405.04434
+
+^ a b Peng, Bowen; Quesnelle, Jeffrey; Fan, Honglu; Shippole, Enrico (1 November 2023), YaRN: Efficient Context Window Extension of Large Language Models, arXiv:2309.00071
+
+^ Dai, Damai; Deng, Chengqi; Zhao, Chenggang; Xu, R. X.; Gao, Huazuo; Chen, Deli; Li, Jiashi; Zeng, Wangding; Yu, Xingkai (11 January 2024), DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models, arXiv:2401.06066
+
+^ "config.json ¬∑ deepseek-ai/DeepSeek-V2-Lite at main". huggingface.co. 15 May 2024. Retrieved 28 January 2025.
+
+^ "config.json ¬∑ deepseek-ai/DeepSeek-V2 at main". huggingface.co. 6 May 2024. Retrieved 28 January 2025.
+
+^ DeepSeek-AI; Zhu, Qihao; Guo, Daya; Shao, Zhihong; Yang, Dejian; Wang, Peiyi; Xu, Runxin; Wu, Y.; Li, Yukun (17 June 2024), DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence, arXiv:2406.11931
+
+^ "deepseek-ai/DeepSeek-V2.5 ¬∑ Hugging Face". huggingface.co. 3 January 2025. Retrieved 28 January 2025.
+
+^ a b c d e f DeepSeek-AI; Liu, Aixin; Feng, Bei; Xue, Bing; Wang, Bingxuan; Wu, Bochao; Lu, Chengda; Zhao, Chenggang; Deng, Chengqi (27 December 2024), DeepSeek-V3 Technical Report, arXiv:2412.19437
+
+^ "config.json ¬∑ deepseek-ai/DeepSeek-V3 at main". huggingface.co. 26 December 2024. Retrieved 28 January 2025.
+
+^ Jiang, Ben (27 December 2024). "Chinese start-up DeepSeek's new AI model outperforms Meta, OpenAI products". South China Morning Post. Archived from the original on 27 December 2024. Retrieved 28 December 2024.
+
+^ Sharma, Shubham (26 December 2024). "DeepSeek-V3, ultra-large open-source AI, outperforms Llama and Qwen on launch". VentureBeat. Archived from the original on 27 December 2024. Retrieved 28 December 2024.
+
+^ Wiggers, Kyle (26 December 2024). "DeepSeek's new AI model appears to be one of the best 'open' challengers yet". TechCrunch. Archived from the original on 2 January 2025. Retrieved 31 December 2024.
+
+^ "News | DeepSeek-R1-Lite Release 2024/11/20: üöÄ DeepSeek-R1-Lite-Preview is now live: unleashing supercharged reasoning power!". DeepSeek API Docs. Retrieved 28 January 2025.
+
+^ Franzen, Carl (20 November 2024). "DeepSeek's first reasoning model R1-Lite-Preview turns heads, beating OpenAI o1 performance". VentureBeat. Archived from the original on 22 November 2024. Retrieved 28 December 2024.
+
+^ Huang, Raffaele (24 December 2024). "Don't Look Now, but China's AI Is Catching Up Fast". The Wall Street Journal. Archived from the original on 27 December 2024. Retrieved 28 December 2024.
+
+^ "Release DeepSeek-R1 ¬∑ deepseek-ai/DeepSeek-R1@23807ce". GitHub. Archived from the original on 21 January 2025. Retrieved 21 January 2025.
+
+^ a b c d DeepSeek-AI; Guo, Daya; Yang, Dejian; Zhang, Haowei; Song, Junxiao; Zhang, Ruoyu; Xu, Runxin; Zhu, Qihao; Ma, Shirong (22 January 2025), DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning, arXiv:2501.12948
+
+^ "Chinese AI startup DeepSeek overtakes ChatGPT on Apple App Store". Reuters. 27 January 2025. Retrieved 27 January 2025.
+
+^ Wade, David (6 December 2024). "American AI has reached its Sputnik moment". The Hill. Archived from the original on 8 December 2024. Retrieved 25 January 2025.
+
+^ a b c Milmo, Dan; Hawkins, Amy; Booth, Robert; Kollewe, Julia (28 January 2025). "'Sputnik moment': $1tn wiped off US stocks after Chinese firm unveils AI chatbot" – via The Guardian.
+
+^ a b c "DeepSeek Chinese AI chatbot sparks market turmoil for rivals". www.bbc.com. 27 January 2025. Retrieved 27 January 2025.
+
+^ Goldman, David (27 January 2025). "What is DeepSeek, the Chinese AI startup that shook the tech world? | CNN Business". CNN. Retrieved 29 January 2025.
+
+^ Shilov, Anton (27 December 2024). "Chinese AI company's AI model breakthrough highlights limits of US sanctions". Tom's Hardware. Archived from the original on 28 December 2024. Retrieved 28 December 2024.
+
+^ "DeepSeek updates ‚Äì Chinese AI chatbot sparks US market turmoil, wiping $500bn off Nvidia". BBC News. Retrieved 27 January 2025.
+
+^ Nazareth, Rita (26 January 2025). "Stock Rout Gets Ugly as Nvidia Extends Loss to 17%: Markets Wrap". Bloomberg. Retrieved 27 January 2025.
+
+^ Carew, Sin√©ad; Cooper, Amanda; Banerjee, Ankur (27 January 2025). "DeepSeek sparks global AI selloff, Nvidia losses about $593 billion of value". Reuters.
+
+^ a b "AI Leaders in the U.S. React to DeepSeek, Calling It 'Impressive' but Staying Skeptical".
+
+^ Kevin Okemwa (28 January 2025). "Microsoft CEO Satya Nadella touts DeepSeek's open-source AI as "super impressive": "We should take the developments out of China very, very seriously"". Windows Central. Retrieved 28 January 2025.
+
+^ Nazzaro, Miranda (28 January 2025). "OpenAI's Sam Altman calls DeepSeek model 'impressive'". The Hill. Retrieved 28 January 2025.
+
+^ Dou, Eva; Gregg, Aaron; Zakrzewski, Cat; Tiku, Nitasha; Najmabadi, Shannon (28 January 2025). "Trump calls China's DeepSeek AI app a 'wake-up call' after tech stocks slide". The Washington Post. Retrieved 28 January 2025.
+
+^ Habeshian, Sareen (28 January 2025). "Johnson bashes China on AI, Trump calls DeepSeek development "positive"". Axios.
+
+^ Hoskins, Peter; Rahman-Jones, Imran (27 January 2025). "Nvidia shares sink as Chinese AI app spooks markets". BBC. Retrieved 28 January 2025.
+
+^ Karaian, Jason; Rennison, Joe (27 January 2025). "China's A.I. Advances Spook Big Tech Investors on Wall Street" – via NYTimes.com.
+
+^ Sharma, Manoj (6 January 2025). "Musk dismisses, Altman applauds: What leaders say on DeepSeek's disruption". Fortune India. Retrieved 28 January 2025.
+
+^ "Elon Musk 'questions' DeepSeek's claims, suggests massive Nvidia GPU infrastructure". Financialexpress. 28 January 2025. Retrieved 28 January 2025.
+
+^ Kim, Eugene. "Big AWS customers, including Stripe and Toyota, are hounding the cloud giant for access to DeepSeek AI models". Business Insider.
+
+^ Kerr, Dara (27 January 2025). "DeepSeek hit with 'large-scale' cyber-attack after AI chatbot tops app stores" – via The Guardian.
+
+^ Tweedie, Steven; Altchek, Ana. "DeepSeek temporarily limited new sign-ups, citing 'large-scale malicious attacks'". Business Insider.
+
+^ Kerr, Dara (27 January 2025). "DeepSeek hit with 'large-scale' cyber-attack after AI chatbot tops app stores". The Guardian. Retrieved 28 January 2025.
+
+^ Field, Matthew; Titcomb, James (27 January 2025). "Chinese AI has sparked a $1 trillion panic ‚Äì and it doesn't care about free speech". The Daily Telegraph. ISSN 0307-1235. Retrieved 27 January 2025.
+
+^ a b Steinschaden, Jakob (27 January 2025). "DeepSeek: This is what live censorship looks like in the Chinese AI chatbot". Trending Topics. Retrieved 27 January 2025.
+
+^ "The Guardian view on a global AI race: geopolitics, innovation and the rise of chaos". The Guardian. 26 January 2025. ISSN 0261-3077. Retrieved 27 January 2025.
+
+^ Yang, Angela; Cui, Jasmine (27 January 2025). "Chinese AI DeepSeek jolts Silicon Valley, giving the AI race its 'Sputnik moment'". NBC News. Retrieved 27 January 2025.
+
+^ Lu, Donna (28 January 2025). "We tried out DeepSeek. It worked well, until we asked it about Tiananmen Square and Taiwan". The Guardian. ISSN 0261-3077. Retrieved 28 January 2025.
+
+^ Kimery, Anthony (26 January 2025). "China's DeepSeek AI poses formidable cyber, data privacy threats". Biometric Update. Retrieved 27 January 2025.
+
+^ Booth, Robert; Milmo, Dan (28 January 2025). "Experts urge caution over use of Chinese AI DeepSeek". The Guardian. ISSN 0261-3077. Retrieved 28 January 2025.
+
+^ Hornby, Rael (28 January 2025). "DeepSeek's success has painted a huge TikTok-shaped target on its back". LaptopMag. Retrieved 28 January 2025.
+
+^ "Privacy policy". Open AI. Retrieved 28 January 2025.
+
+^ Burgess, Matt. "DeepSeek's Popular AI App Is Explicitly Sending US Data to China". Wired. ISSN 1059-1028. Retrieved 28 January 2025.
+
+^ "Italy regulator seeks information from DeepSeek on data protection". Reuters. 28 January 2025. Retrieved 28 January 2025.
+
+^ Shalal, Andrea; Shepardson, David (28 January 2025). "White House evaluates effect of China AI app DeepSeek on national security, official says". Reuters. Retrieved 28 January 2025.
+
+
+External links
+
+Free and open-source software portal
+
+
+
+Wikimedia Commons has media related to DeepSeek.
+
+Official website 
+Anthology of DeepSeek papers
+Deepseek-ai on GitHub
+Official API documentation
+deepseek-ai on Hugging Face
+vteGenerative AI chatbotsActive
+ChatGPT
+Claude
+DeepSeek
+Gemini
+Grok
+Microsoft Copilot
+Mistral
+Poe
+Qwen
+Replika
+You.com
+Defunct
+Bard
+Related
+Large language models
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval-augmented generation
+Reinforcement learning from human feedback
+Self-supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+Gemini
+GPT
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+Grok
+Granite
+Llama
+Mistral Large
+PanGu-Œ£
+Qwen
+Image
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Midjourney
+Stable Diffusion
+Video
+Dream Machine
+Gen-3 Alpha
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Udio
+Suno AI
+Companies
+01.AI
+Alibaba
+Anthropic
+Baichuan
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=DeepSeek&oldid=1272557204"
+Categories: 2023 establishments in ChinaArtificial intelligence companiesArtificial intelligence laboratoriesCompanies based in HangzhouTechnology companies established in 2023Hidden categories: Articles with short descriptionShort description matches WikidataWikipedia pages semi-protected against vandalismUse dmy dates from January 2025Articles containing Chinese-language textArticles containing simplified Chinese-language textCommons category link from Wikidata
+
+
+
+
+
+
+ This page was last edited on 29 January 2025, at 06:55 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia¬Æ is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+Toggle the table of contents
+
+
+
+
+
+
+
+DeepSeek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46 languages
+
+
+Add topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

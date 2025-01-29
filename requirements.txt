@@ -8,4 +8,5 @@ pypdf
 tiktoken
 unstructured
 wikipedia
+beautifulsoup4
 -e .
