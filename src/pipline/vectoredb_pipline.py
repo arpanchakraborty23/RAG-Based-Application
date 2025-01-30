@@ -58,15 +58,15 @@ class TrainPipline:
             logging.info('************************************ Traning Pipline Started ************************************')
             data_ingestion_artifacts=self.start_data_ingestion()
             data_chunking_artifacts=self.start_data_chuinking(data_ingestion_artifact=data_ingestion_artifacts)
-            self.s3_storege.upload_folder(
-                folder_path=self.traing_pipeline_config.artifacts_path,
-                s3_folder='Artifacts'
-            )
+            # self.s3_storege.upload_folder(
+            #     folder_path=self.traing_pipeline_config.artifacts_path,
+            #     s3_folder='Artifacts'
+            # )
             db=self.start_vectordb_data_store(data_chunking_artifacts=data_chunking_artifacts)
-            self.s3_storege.upload_folder(
-                folder_path=self.traing_pipeline_config.vector_database,
-                s3_folder='Vector_db'
-            )
+            # self.s3_storege.upload_folder(
+            #     folder_path=self.traing_pipeline_config.vector_database,
+            #     s3_folder='Vector_db'
+            # )
             
 
             logging.info('************************************ Traning Pipline Completed ************************************')

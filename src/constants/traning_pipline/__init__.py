@@ -10,7 +10,7 @@ AWS_BUCKET_NAME:str='hflfj'
 DATA_INGESTION_DIR_NAME: str = 'data_ingestion'
 DATA_INGESTION_INGEST_DIR:str = 'data'
 DATA_INGESTION_INGEST_FILE:str='data.txt'
-DATA_INGESTION_DATA_URL:str = 'https://en.wikipedia.org/wiki/DeepSeek'
+DATA_INGESTION_DATA_URL:str = 'https://www.geeksforgeeks.org/large-language-model-llm/'
 
 """ Chunking and Preprocessing constants"""
 DATA_CHUNKING_DIR:str='data_chunking'
