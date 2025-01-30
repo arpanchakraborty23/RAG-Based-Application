@@ -1,5 +1,8 @@
 CREATE DATABASE IF NOT EXISTS chatdb;
+
+
 USE chatdb;
+
 
 CREATE TABLE IF NOT EXISTS chat_history (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -8,4 +11,4 @@ CREATE TABLE IF NOT EXISTS chat_history (
     content TEXT
 );
 
-SELECT * FROM chat_history
+SELECT * FROM chat_history;

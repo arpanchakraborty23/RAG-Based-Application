@@ -5,49 +5,11 @@ from langchain_community.vectorstores import FAISS
 from src.pipline.retrieever_genaration_pipline import RetrieverGenaration
 from src.pipline.preprocess_upload_doc_pipline import UploadDataToVectoreDb
 import os
-import mysql.connector
+from sql_connection import fetch_chat_history,store_chat
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+
 
 app = Flask(__name__)
-
-# MySQL Database Configuration
-DB_CONFIG = {
-    "host": os.getenv("MYSQL_HOST"),
-    "user": os.getenv("MYSQL_USER"),
-    "password": os.getenv("MYSQL_PASSWORD"),
-    "database": os.getenv("MYSQL_DB"),
-}
-
-# Store chat history in MySQL
-def store_chat(role, content):
-    try:
-        conn = mysql.connector.connect(**DB_CONFIG)
-        cursor = conn.cursor()
-        cursor.execute(
-            "INSERT INTO chat_history (role, content, timestamp) VALUES (%s, %s, NOW())",
-            (role, content),
-        )
-        conn.commit()
-        cursor.close()
-        conn.close()
-    except Exception as e:
-        logging.error(f"Error storing chat: {e}")
-
-# Retrieve chat history
-def fetch_chat_history():
-    try:
-        conn = mysql.connector.connect(**DB_CONFIG)
-        cursor = conn.cursor(dictionary=True)
-        cursor.execute("SELECT role, content, timestamp FROM chat_history ORDER BY timestamp DESC LIMIT 10")
-        history = cursor.fetchall()
-        cursor.close()
-        conn.close()
-        return history
-    except Exception as e:
-        logging.error(f"Error fetching chat history: {e}")
-        return []
 
 @app.route('/')
 def index():
@@ -73,10 +35,16 @@ def upload_document():
         # Check file extension
         if not file.filename.endswith((".txt", ".pdf")):
             return jsonify({"error": "Only .txt and .pdf files are supported"}), 400
+        
+        S3Storage().upload_file(
+            file_obj=file,
+            filename=file.filename
+        )
 
         # Process the new document Chunking and Storing
-        obj=UploadDataToVectoreDb(file=file)
-        obj.new_vectore_Db()
+        obj=UploadDataToVectoreDb()
+        chunks=obj.process_document(file=file)
+        obj.vector_store(chunks=chunks)
 
         return jsonify({
             "message": "File uploaded and added to FAISS successfully"
@@ -92,18 +60,23 @@ def chat():
     try:
         query = request.json
 
-        if 'question' not in query:
-           return jsonify({'error': 'No question provided'}), 400
+        if "question" not in query:
+            return jsonify({"error": "No question provided"}), 400
 
-        logging.info(f'Query received: {query}')
-        response = RetrieverGenaration().get_response(query=query['question'])
-        logging.info(f'Response of query: {response}')
+        user_question = query["question"]
+        logging.info(f"Query received: {user_question}")
 
-        # Store in MySQL
-        # store_chat("user", query["question"])  # Fixed key
-        # store_chat("system", response["result"])
+        # Get response from RAG model
+        response = RetrieverGenaration().get_response(query=user_question)
+        system_answer = response if isinstance(response, str) else response.get("result", "")
 
-        return jsonify({"answer": response})
+        logging.info(f"Response of query: {system_answer}")
+
+        # Store chat history in MySQL
+        store_chat("user", user_question)   # Store user question
+        store_chat("system", system_answer) # Store system response
+
+        return jsonify({"answer": system_answer})
 
     except Exception as e:
         logging.error(f"Error in retrieval: {e}")
