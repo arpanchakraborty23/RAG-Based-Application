@@ -17,4 +17,5 @@ CHUINK_SIZE= 500
 CHUINK_OVERLAP=50
 
 """Vectore Store constans"""
-VECTOR_DATABASE_DIR_PATH:str='Vector_db'
+VECTOR_DATABASE_DIR:str='Vector_db'
+VECTOR_DATABASE_NAME:str='fiass_db'

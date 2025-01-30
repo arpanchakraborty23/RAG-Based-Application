@@ -11,3 +11,4 @@ class DataChunkingArtifacts:
 @dataclass
 class VectorDataBaseArtifacts:
     vector_database_path:object
+   

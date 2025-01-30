@@ -54,11 +54,11 @@ class TrainPipline:
             logging.info('************************************ Traning Pipline Started ************************************')
             data_ingestion_artifacts=self.start_data_ingestion()
             data_chunking_artifacts=self.start_data_chuinking(data_ingestion_artifact=data_ingestion_artifacts)
-            self.start_vectordb_data_store(data_chunking_artifacts=data_chunking_artifacts)
+            db=self.start_vectordb_data_store(data_chunking_artifacts=data_chunking_artifacts)
             
 
             logging.info('************************************ Traning Pipline Completed ************************************')
-         
+            return db
 
         except Exception as e:
             logging.info(f'Error in training pipeline {str(e)}')
