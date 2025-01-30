@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with RAG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        textarea, input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            background: #d4edda;
+            color: #155724;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            display: none; /* Hide initially */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Chat with RAG</h2>
+
+        <!-- Chat Response Section -->
+        <div id="result" class="result"></div>
+
+        <!-- Chat Form -->
+        <textarea id="question" rows="4" placeholder="Ask a question..."></textarea>
+        <button onclick="sendQuery()">Send</button>
+
+        <!-- Upload Document -->
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload</button>
+    </div>
+
+    <script>
+        function sendQuery() {
+            const question = document.getElementById("question").value;
+            if (!question.trim()) {
+                alert("Please enter a question!");
+                return;
+            }
+
+            fetch("/query", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById("result");
+                resultDiv.innerHTML = `<strong>Answer:</strong> ${data.answer}`;
+                resultDiv.style.display = "block"; // Show result
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        function uploadFile() {
+            const fileInput = document.getElementById("fileInput");
+            if (fileInput.files.length === 0) {
+                alert("Please select a file to upload.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            fetch("/upload", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message || "File uploaded successfully.");
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+
+</body>
+</html>

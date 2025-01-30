@@ -7,3 +7,5 @@ CREATE TABLE IF NOT EXISTS chat_history (
     role ENUM('user', 'system'),
     content TEXT
 );
+
+SELECT * FROM chat_history

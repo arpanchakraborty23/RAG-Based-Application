@@ -1,17 +1,14 @@
-from flask import Flask, request, jsonify,render_template
+from flask import Flask, request, jsonify, render_template
+from src.cloud.s3_storege import S3Storage
+from src.logging import logging
 from langchain_community.vectorstores import FAISS
-from langchain_google_genai.embeddings import GoogleGenerativeAIEmbeddings
-from langchain_google_genai import GoogleGenerativeAI
-from flask_cors import CORS
-from langchain.chains import RetrievalQA
 from src.pipline.retrieever_genaration_pipline import RetrieverGenaration
-from dotenv import load_dotenv
+from src.pipline.preprocess_upload_doc_pipline import UploadDataToVectoreDb
 import os
 import mysql.connector
-import logging
 
-# Load environment variables
-load_dotenv()
+# Configure logging
+logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 
@@ -29,8 +26,8 @@ def store_chat(role, content):
         conn = mysql.connector.connect(**DB_CONFIG)
         cursor = conn.cursor()
         cursor.execute(
-            "INSERT INTO chat_history (role, content) VALUES (%s, %s)",
-            (role, content)
+            "INSERT INTO chat_history (role, content, timestamp) VALUES (%s, %s, NOW())",
+            (role, content),
         )
         conn.commit()
         cursor.close()
@@ -43,7 +40,7 @@ def fetch_chat_history():
     try:
         conn = mysql.connector.connect(**DB_CONFIG)
         cursor = conn.cursor(dictionary=True)
-        cursor.execute("SELECT * FROM chat_history ORDER BY timestamp DESC LIMIT 10")
+        cursor.execute("SELECT role, content, timestamp FROM chat_history ORDER BY timestamp DESC LIMIT 10")
         history = cursor.fetchall()
         cursor.close()
         conn.close()
@@ -51,32 +48,66 @@ def fetch_chat_history():
     except Exception as e:
         logging.error(f"Error fetching chat history: {e}")
         return []
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# API Endpoint: Chat
-@app.route("/chat", methods=["POST"])
-def chat():
-    data = request.json
-    query = data.get("query")
-
-    if not query:
-        return jsonify({"error": "Query is required"}), 400
-
-    response = RetrieverGenaration(query=query)
-    
-    # Store in MySQL
-    store_chat("user", query)
-    store_chat("system", response["result"])
-
-    return jsonify({"answer": response["result"]})
-
-# API Endpoint: Chat History
 @app.route("/history", methods=["GET"])
 def history():
     chat_history = fetch_chat_history()
     return jsonify(chat_history)
 
+@app.route("/upload", methods=["POST"])
+def upload_document():
+    try:
+        logging.info("Upload endpoint called")
+
+        if "file" not in request.files:
+            return jsonify({"error": "No file provided"}), 400
+
+        file = request.files["file"]
+        if file.filename == "":
+            return jsonify({"error": "No file selected"}), 400
+
+        # Check file extension
+        if not file.filename.endswith((".txt", ".pdf")):
+            return jsonify({"error": "Only .txt and .pdf files are supported"}), 400
+
+        # Process the new document Chunking and Storing
+        obj=UploadDataToVectoreDb(file=file)
+        obj.new_vectore_Db()
+
+        return jsonify({
+            "message": "File uploaded and added to FAISS successfully"
+        })
+
+    except Exception as e:
+        logging.error(f"Error processing document: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/query", methods=["POST"])
+def chat():
+    try:
+        query = request.json
+
+        if 'question' not in query:
+           return jsonify({'error': 'No question provided'}), 400
+
+        logging.info(f'Query received: {query}')
+        response = RetrieverGenaration().get_response(query=query['question'])
+        logging.info(f'Response of query: {response}')
+
+        # Store in MySQL
+        # store_chat("user", query["question"])  # Fixed key
+        # store_chat("system", response["result"])
+
+        return jsonify({"answer": response})
+
+    except Exception as e:
+        logging.error(f"Error in retrieval: {e}")
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=5000)
+    app.run(host="0.0.0.0", port=5000)

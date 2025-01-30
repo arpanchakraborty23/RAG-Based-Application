@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Chat History</h2>
+        <ul id="history-list"></ul>
+        <a href="/">Go Back</a>
+    </div>
+
+    <script>
+        async function loadHistory() {
+            let res = await fetch("/history");
+            let data = await res.json();
+            let list = document.getElementById("history-list");
+
+            data.forEach(entry => {
+                let item = document.createElement("li");
+                item.innerHTML = `<strong>${entry.role}:</strong> ${entry.content}`;
+                list.appendChild(item);
+            });
+        }
+
+        loadHistory();
+    </script>
+</body>
+</html>

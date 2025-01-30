@@ -4,11 +4,14 @@ from src.knowledge_base.chunking import DataChunking
 from src.knowledge_base.embedding_vector_store import VectorDatabase
 from src.config.config import TraningPiplineConfig,DataIngestionConfig,DataChunkingConfig
 from src.config.artifacts_entity import DataIngestionArtifacts,DataChunkingArtifacts
+from src.cloud.s3_storege import S3Storage
 import os
 
 class TrainPipline:
     def __init__(self):
         self.traing_pipeline_config=TraningPiplineConfig()
+        self.s3_storege=S3Storage()
+
 
     def start_data_ingestion(self):
         try:

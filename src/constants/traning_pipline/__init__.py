@@ -2,6 +2,8 @@
 """Artifacts constants """
 ARTIFACTS_PATH = 'Artifacts'
 
+""" s3 bucket constans"""
+AWS_BUCKET_NAME:str='hflfj'
 
 
 """Data ingestion constants"""
