@@ -13,4 +13,5 @@ langchain_pinecone
 faiss-cpu
 rank_bm25
 flask_mysqldb
+mysql.connector
 -e .

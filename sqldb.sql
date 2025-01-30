@@ -1,10 +1,9 @@
-CREATE DATABASE chat_history;
+CREATE DATABASE IF NOT EXISTS chatdb;
+USE chatdb;
 
-USE chat_history;
-
-CREATE TABLE messages (
+CREATE TABLE IF NOT EXISTS chat_history (
     id INT AUTO_INCREMENT PRIMARY KEY,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    role ENUM('user', 'system') NOT NULL,
-    content TEXT NOT NULL
+    role ENUM('user', 'system'),
+    content TEXT
 );

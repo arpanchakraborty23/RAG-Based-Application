@@ -1,7 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai.embeddings import GoogleGenerativeAIEmbeddings
-from src.config.config import TraningPiplineConfig, DataChunkingConfig
-from src.config.artifacts_entity import DataChunkingArtifacts
+from src.config.config import TraningPiplineConfig
 from langchain_google_genai import GoogleGenerativeAI
 from langchain.chains import RetrievalQA
 from src.logging import logging
