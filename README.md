@@ -1,5 +1,5 @@
 # RAG-Based-Application
-This project implements a Network Security System with Flask, FAISS Vector Database, MySQL, and AWS S3 for handling file uploads, processing documents, storing chat history, and generating responses using Retriever-Augmented Generation (RAG).
+This project implements RAG-Based-Application with Flask, FAISS Vector Database, MySQL, and AWS S3 for handling file uploads, processing documents, storing chat history, and generating responses using Retriever-Augmented Generation (RAG).
 ## Workflows
 
 1. **Data Ingestion**
